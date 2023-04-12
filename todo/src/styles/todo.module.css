@@ -1,0 +1,45 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .todo-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  .todo-item input {
+    margin-right: 10px;
+  }
+  
+  .todo-item .datepicker {
+    width: 200px;
+  }
+  
+  .add-todo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .add-todo input {
+    margin-right: 10px;
+  }
+  
+  .add-todo .datepicker {
+    width: 200px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+
+  
